@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task 1</title>
+<script type="text/javascript" src="Computer.js"></script>
+<script type="text/javascript">
+	
+	var computer1 = new Computer(2009, 700, true, 4000, 2000, 'Windows');
+	var computer2 = new Computer(2010, 650, false, 3000, 1500, 'Linux');
+	
+	console.log(computer1);
+	console.log(computer2);
+	
+	console.log('New freeMemory: ' + computer1.useMemory(100));
+	console.log('Change operation system: ' + computer2.changeOperationSystem('MAC'));
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

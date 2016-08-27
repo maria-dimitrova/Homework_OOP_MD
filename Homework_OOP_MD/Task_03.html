@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task 3</title>
+<script type="text/javascript" src="Task.js"></script>
+<script type="text/javascript" src="Employee.js"></script>
+<script type="text/javascript">
+
+	var cleaning = new Task('cleaning', 3);
+	var cooking = new Task('cooking', 2);
+	var makingMoney = new Task('makingMoney', 4);
+	
+	var employee1 = new Employee('Maria');
+	employee1.setCurrentTask(cooking);
+	console.log(employee1.work());
+	
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
